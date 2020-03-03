@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-prettier/recommended"],
+  "rules": {
+    "unit-blacklist": [
+      "em"
+    ],
+    "indentation": 2
+  }
+}

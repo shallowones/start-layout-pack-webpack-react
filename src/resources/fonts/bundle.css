@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('hinted-GothamPro-Medium.eot');
+  src: local('GothamPro-Medium'), url('hinted-GothamPro-Medium.woff2') format('woff2'), url('hinted-GothamPro-Medium.woff') format('woff'),
+    url('hinted-GothamPro-Medium.ttf') format('truetype'), url('hinted-GothamPro-Medium.svg#GothamPro-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('hinted-GothamPro-Light.eot');
+  src: local('GothamPro-Light'), url('hinted-GothamPro-Light.woff2') format('woff2'), url('hinted-GothamPro-Light.woff') format('woff'),
+    url('hinted-GothamPro-Light.ttf') format('truetype'), url('hinted-GothamPro-Light.svg#GothamPro-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('hinted-Roboto-Bold.eot');
+  src: local('Roboto Bold'), url('hinted-Roboto-Bold.woff2') format('woff2'), url('hinted-Roboto-Bold.woff') format('woff'),
+    url('hinted-Roboto-Bold.ttf') format('truetype'), url('hinted-Roboto-Bold.svg#Roboto-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('hinted-Roboto-Medium.eot');
+  src: local('Roboto Medium'), url('hinted-Roboto-Medium.woff2') format('woff2'), url('hinted-Roboto-Medium.woff') format('woff'),
+    url('hinted-Roboto-Medium.ttf') format('truetype'), url('hinted-Roboto-Medium.svg#Roboto-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('hinted-Roboto-Light.eot');
+  src: local('Roboto Light'), url('hinted-Roboto-Light.woff2') format('woff2'), url('hinted-Roboto-Light.woff') format('woff'),
+    url('hinted-Roboto-Light.ttf') format('truetype'), url('hinted-Roboto-Light.svg#Roboto-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}

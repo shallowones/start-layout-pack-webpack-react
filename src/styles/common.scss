@@ -1,0 +1,25 @@
+@import '../resources/fonts/bundle.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.asd {
+  background-color: salmon;
+}
+
+h1 {
+  font-family: 'Gotham Pro', 'Verdana', sans-serif;
+}
+
+#root {
+  background-image: url('../resources/images/2.png');
+  background-size: contain;
+  background-position: right;
+}

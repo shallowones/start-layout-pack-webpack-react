@@ -1,0 +1,23 @@
+$color: black;
+
+.trueClass {
+  width: 200px;
+  height: 100px;
+  color: $color;
+
+  &:global(.asd) {
+    background-color: blueviolet;
+  }
+}
+
+.another {
+  color: beige;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding-left: 1rem;
+  background-color: salmon;
+}

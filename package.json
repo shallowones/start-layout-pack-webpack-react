@@ -1,0 +1,76 @@
+{
+  "name": "start-layout-pack-webpack-react",
+  "version": "1.0.0",
+  "description": "Репозиторий, который содержит сборку для начала верстки (webpack + react)",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "author": "shallowones",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashleygwilliams/my_package.git"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.6",
+    "@babel/preset-env": "7.8.6",
+    "@babel/preset-react": "7.8.3",
+    "@babel/preset-typescript": "7.8.3",
+    "@hot-loader/react-dom": "16.12.0",
+    "@types/react": "16.9.23",
+    "@typescript-eslint/eslint-plugin": "2.22.0",
+    "@typescript-eslint/parser": "2.22.0",
+    "autoprefixer": "9.7.4",
+    "babel-loader": "8.0.6",
+    "circular-dependency-plugin": "5.2.0",
+    "clean-webpack-plugin": "3.0.0",
+    "cross-env": "6.0.3",
+    "css-loader": "3.4.2",
+    "cssnano-webpack-plugin": "1.0.2",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.18.3",
+    "file-loader": "4.3.0",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "node-sass": "4.13.1",
+    "postcss-loader": "3.0.0",
+    "prettier": "1.19.1",
+    "react-hot-loader": "4.12.19",
+    "react-svg-loader": "3.0.3",
+    "resolve-url-loader": "3.1.1",
+    "sass-loader": "8.0.2",
+    "stylelint": "12.0.1",
+    "stylelint-config-prettier": "8.0.1",
+    "stylelint-prettier": "1.1.2",
+    "terser-webpack-plugin": "2.3.5",
+    "ts-loader": "6.2.1",
+    "typescript": "3.8.2",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  },
+  "dependencies": {
+    "classnames": "2.2.6",
+    "normalize.css": "8.0.1",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "react-id-swiper": "2.4.0",
+    "swiper": "5.3.1"
+  },
+  "browserslist": {
+    "production": [
+      "> 0.2%",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 ie version"
+    ]
+  }
+}
